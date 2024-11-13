@@ -38,11 +38,9 @@
 }
 
 
-.header {
-  background-color: white;
-  grid-column: 2 / 5;
-  font-size: 44px;
-  font-weight: 800;
+/* .header {
+  background-color: #fff;
+    display: grid;
 }
 
 input {
@@ -51,30 +49,29 @@ input {
   border: none;
   background-color: #e0f2fe;
   border-radius: 8px;
-  
 }
 
-
-
-.upperside {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 30px;
-}
-
-
-
-
-
-/* .lowerside {
-  
-  
-} */
+*/
 
 .maincontent {
   background-color: #e0f2fe;
   grid-column: 2 / 5;
   grid-row: 2 / 5;
+  height: 100%;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) repeat(1, 2fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin: 5px;
+  
+}
+
+.box {
+  border: 1px solid black;
+  height: 10rem;
+  display: grid;
+}
+
