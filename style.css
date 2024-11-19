@@ -32,7 +32,7 @@ body {
 
 .logo-text h1 {
   font-size: 25px;
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 .icon-text {
@@ -75,4 +75,64 @@ svg {
 .main {
   background-color: white;
   height: 100vh;
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar, .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 20px;
+}
+
+.form-input {
+  width: 600px;
+  height: 25px;
+  background-color: #cbd5e1;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  margin-left: 20px;
+  margin-right: 200px;
+}
+
+.avatarNavbar, .avatarWelcome {
+  margin: 0 20px;
+}
+
+.welcome {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin: 5px 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.btn {
+  background-color: #0ea5e9;
+  width: 70px;
+  height: 35px;
+  color: white;
+  border: 1px solid #0ea5e9;
+  border-radius: 20px;
+}
+
+.content {
+  background-color:#cbd5e1;
 }
