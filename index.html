@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <!-- App Drawer -->
+    <div class="drawer">
+      <div class="dashboard menuItem">
+        <img src="/icons/view-dashboard.svg" alt="Dashboard Logo" />
+        <h1>Dashboard</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/home (1).svg" alt="Home Logo" />
+        <h1>Home</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/card-account-details.svg" alt="Card Logo" />
+        <h1>Profile</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/message-reply.svg" alt="Messages Logo" />
+        <h1>Messages</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/clock-time-three.svg" alt="History Logo" />
+        <h1>History</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/note-multiple.svg" alt="Tasks Logo" />
+        <h1>Tasks</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/account-group.svg" alt="Communities Logo" />
+        <h1>communities</h1>
+      </div>
+      <!-- Need extra spacing, so nth child -->
+      <div class="menuItem">
+        <img src="/icons/cog.svg" alt="Settings Logo" />
+        <h1>Settings</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/message-question.svg" alt="Support Logo" />
+        <h1>Support</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/shield-check.svg" alt="Privacy Logo" />
+        <h1>Privacy</h1>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <!-- Top Section -->
+      <div class="topNav">
+        <!-- Search Icon and search bar -->
+        <div class="search">
+          <div class="menuItem">
+            <img src="/icons/magnify.svg" alt="Magnify Logo" />
+          </div>
+          <input type="text" name="search" autocomplete="off" />
+        </div>
+        <div class="account">
+          <div class="menuIcon">
+            <img src="/icons/bell-ring-outline.svg" alt="Bell Icon" />
+          </div>
+          <!-- Avatar from Github -->
+          <div class="gh-avatar">
+            <img
+              src="https://github.com/DenisMichalski.png"
+              alt="Github Avatar"
+            />
+          </div>
+          <!-- Our username -->
+          <p class="name">Denis Michalski</p>
+        </div>
+      </div>
+      <!-- Bottom Section -->
+      <div class="bottom">
+        <!-- Profile Details -->
+        <div class="profile">
+          <div class="gh-avatar">
+            <img src="https://github.com/DenisMichalski.png" alt="" />
+          </div>
+          <div class="profile-name">
+            <p class="greeting">Hi there,</p>
+            <p class="name">
+              Denis Michalski <span class="username">(@denis)</span>
+            </p>
+          </div>
+        </div>
+        <!-- Button Section -->
+        <div class="buttons">
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button class="btn">Share</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="content">
+      <div class="projects">
+        <h3>Your Projects</h3>
+
+        <!-- Section for all Project cards -->
+        <div class="cards">
+          <!-- Each individual card, we need 6 cards -->
+          <div class="card">
+            <h5 class="card-title">Super Cool Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              obcaecati sit alias quia eius natus temporibus exercitationem
+              magnam unde rerum quas asperiores.
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus-outline.svg" alt="Star Logo" />
+              <img src="/icons/eye-plus-outline.svg" alt="Eye Logo" />
+              <img src="/icons/source-fork.svg" alt="Fork Logo" />
+            </div>
+          </div>
+          <!-- Each individual card, we need 6 cards -->
+          <div class="card">
+            <h5 class="card-title">Less Cool Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              sed enim expedita voluptatem cupiditate?
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus-outline.svg" alt="Star Logo" />
+              <img src="/icons/eye-plus-outline.svg" alt="Eye Logo" />
+              <img src="/icons/source-fork.svg" alt="Fork Logo" />
+            </div>
+          </div>
+          <!-- Each individual card, we need 6 cards -->
+          <div class="card">
+            <h5 class="card-title">Impossible App</h5>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+              accusantium rerum nisi ipsum, recusandae in doloribus dolore eius
+              ipsam quisquam pariatur cum velit!
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus-outline.svg" alt="Star Logo" />
+              <img src="/icons/eye-plus-outline.svg" alt="Eye Logo" />
+              <img src="/icons/source-fork.svg" alt="Fork Logo" />
+            </div>
+          </div>
+          <!-- Each individual card, we need 6 cards -->
+          <div class="card">
+            <h5 class="card-title">Easy Peasy App</h5>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+              ipsa earum quaerat culpa sequi laboriosam a tenetur? Quae
+              aspernatur sequi nemo.
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus-outline.svg" alt="Star Logo" />
+              <img src="/icons/eye-plus-outline.svg" alt="Eye Logo" />
+              <img src="/icons/source-fork.svg" alt="Fork Logo" />
+            </div>
+          </div>
+          <!-- Each individual card, we need 6 cards -->
+          <div class="card">
+            <h5 class="card-title">Add Blocker</h5>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+              modi repellat! Ullam mollitia, corrupti beatae aut quos provident
+              error excepturi fugit aspernatur velit repudiandae amet numquam
+              optio odit, rem sed.
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus-outline.svg" alt="Star Logo" />
+              <img src="/icons/eye-plus-outline.svg" alt="Eye Logo" />
+              <img src="/icons/source-fork.svg" alt="Fork Logo" />
+            </div>
+          </div>
+          <!-- Each individual card, we need 6 cards -->
+          <div class="card">
+            <h5 class="card-title">Money Maker</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
+              aspernatur vel eum quaerat ratione consequuntur dicta delectus
+              voluptate!
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus-outline.svg" alt="Star Logo" />
+              <img src="/icons/eye-plus-outline.svg" alt="Eye Logo" />
+              <img src="/icons/source-fork.svg" alt="Fork Logo" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Side Content - Announcements and Trending-->
+
+        <!-- Announcements -->
+        <div class="announcements">
+          <ul class="card">
+            <li class="announcement">
+              <h5 class="card-title">Site Maintenance</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                assumenda vel, laborum commodi possimus nulla sunt nesciunt.
+              </p>
+            </li>
+            <li class="announcement">
+              <h5 class="card-title">Community Share Day</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+                perspiciatis autem obcaecati accusamus? Alias aspernatur
+                assumenda dignissimos nihil.
+              </p>
+            </li>
+            <li class="announcement">
+              <h5 class="card-title">Updated Privacy Policy</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis pariatur aspernatur soluta veniam inventore nisi
+                voluptas eos quaerat mollitia vel necessitatibus.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
